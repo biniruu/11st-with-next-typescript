@@ -1,7 +1,8 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
 import styles from './page.module.css'
 
+// eslint-disable-next-line new-cap
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -41,7 +42,7 @@ export default function Home() {
           priority
         />
         <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority/>
         </div>
       </div>
 
